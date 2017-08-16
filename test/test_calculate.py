@@ -18,6 +18,9 @@ class Test(object):
     def test_sub(self):
         assert (1 - 2) == self.calculator.sub(1, 2)
 
+    def test_time(self):
+        assert (1 * 2) == self.calculator.time(1, 2)
+
     def test_div(self):
         try:
             self.calculator.div(1, 0)
