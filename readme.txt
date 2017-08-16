@@ -5,5 +5,6 @@ Usage:
 
     run
         nosetests <testcase.py>
-    if need detail info, add -v, if need more print add -s
+    if need detail info, add -v,
+    if need print content of class or function be tested add -s
 
